@@ -11,4 +11,6 @@ define('ISHOP', true);
 
 require_once __DIR__ . '/config.php';
 
+//подключения контроллера
+require_once CONTROLLER;
 

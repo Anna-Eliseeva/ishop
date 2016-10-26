@@ -5,16 +5,16 @@ define('PATH', 'http://myshop.loc/');
 define('MODEL', 'model/model.php');
 define('CONTROLLER', 'controller/controller.php');
 define('VIEW', 'view/');
-define('TEMPLATE', 'ishop/');
+define('TEMPLATE', VIEW . 'ishop/');
 
 // Server DB
 define('HOST', 'localhost');
 
 // User
-define('DB_USER', 'Anna');
+define('DB_USER', 'root');
 
 // Password
-define('DB_PASSWORD', '1234');
+define('DB_PASSWORD', '');
 define('DB', 'ishop');
 
 // Name Shop

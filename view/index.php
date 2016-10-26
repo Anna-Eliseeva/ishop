@@ -1,3 +1,7 @@
+<?php
+defined('ISHOP') or die('goodbye');
+?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -14,8 +18,8 @@
 <body>
 <div class="main">
 	<div class="header">
-    	<a href="/"><img class="logo" src="images/logo.jpg" alt="Интернет магазин сотовых телефонов" /></a>
-        <img class="slogan" src="images/slogan.jpg" alt="Интернет магазин сотовых телефонов" />
+    	<a href="/"><img class="logo" src=<?= TEMPLATE ?>"images/logo.jpg" alt="Интернет магазин сотовых телефонов" /></a>
+        <img class="slogan" src=<?= TEMPLATE ?>"images/slogan.jpg" alt="Интернет магазин сотовых телефонов" />
         <div class="head-contact">
         	<p><strong>Телефон:</strong><br />
 <span>8 (800) 700-00-01</span></p>
@@ -26,14 +30,14 @@
         <form method="get" action="">
         <ul class="search-head">
         	<li>
-            <input type="text" name="search" id="quickquery" placeholder="Что вы хотите купить?" />
+            <input class="text" name="search" id="quickquery" placeholder="Что вы хотите купить?" />
 		<script type="text/javascript">
         //<![CDATA[
         placeholderSetup('quickquery');
         //]]>
         </script>
 </li>
-            <li><input type="image" class="serch-btn" src="images/searc-btn.jpg" /></li>
+            <li><input type="image" class="serch-btn" src=<?= TEMPLATE ?>"images/searc-btn.jpg" /></li>
         </ul>
         </form>
     </div>
@@ -47,55 +51,55 @@
     <div id="contentwrapper">
 		<div id="content">
         	<div class="catalog-index">
-				<h1><img src="images/lider-sale.jpg" alt="Лидеры продаж" /></h1>
+				<h1><img src=<?= TEMPLATE ?>"images/lider-sale.jpg" alt="Лидеры продаж" /></h1>
 				<div class="product-index">
 					<h2><a href="#">Sony Xperia S 32Gb (черный)</a></h2>
-					<a href="#"><img src="images/phone-index.jpg" alt="" /></a>
+					<a href="#"><img src=<?= TEMPLATE ?>"images/phone-index.jpg" alt="" /></a>
 					<p>Цена:  <span>24 990.</span></p>
-					<a href="#"><img class="addtocard-index" src="images/addcard-index.jpg" alt="Добавить в карзину" /></a>
+					<a href="#"><img class="addtocard-index" src=<?= TEMPLATE ?>"images/addcard-index.jpg" alt="Добавить в карзину" /></a>
 				</div>
 
                 <div class="product-index">
 					<h2><a href="#">Sony Xperia S 32Gb (черный)</a></h2>
 					<a href="#"><img src="images/phone-index.jpg" alt="" /></a>
 					<p>Цена:  <span>24 990.</span></p>
-					<a href="#"><img class="addtocard-index" src="images/addcard-index.jpg" alt="Добавить в карзину" /></a>
+					<a href="#"><img class="addtocard-index" src=<?= TEMPLATE ?>"images/addcard-index.jpg" alt="Добавить в карзину" /></a>
+				</div>
+                <div class="product-index">
+					<h2><a href="#">Sony Xperia S 32Gb (черный)</a></h2>
+					<a href="#"><img src=<?= TEMPLATE ?>"images/phone-index.jpg" alt="" /></a>
+					<p>Цена:  <span>24 990.</span></p>
+					<a href="#"><img class="addtocard-index" src=<?= TEMPLATE ?>"images/addcard-index.jpg" alt="Добавить в карзину" /></a>
+				</div>
+                <div class="product-index">
+					<h2><a href="#">Sony Xperia S 32Gb (черный)</a></h2>
+					<a href="#"><img src=<?= TEMPLATE ?>"images/phone-index.jpg" alt="" /></a>
+					<p>Цена:  <span>24 990.</span></p>
+					<a href="#"><img class="addtocard-index" src=<?= TEMPLATE ?>"images/addcard-index.jpg" alt="Добавить в карзину" /></a>
+				</div>
+                <div class="product-index">
+					<h2><a href="#">Sony Xperia S 32Gb (черный)</a></h2>
+					<a href="#"><img src=<?= TEMPLATE ?>"images/phone-index.jpg" alt="" /></a>
+					<p>Цена:  <span>24 990.</span></p>
+					<a href="#"><img class="addtocard-index" src=<?= TEMPLATE ?>"images/addcard-index.jpg" alt="Добавить в карзину" /></a>
+				</div>
+                <div class="product-index">
+					<h2><a href="#">Sony Xperia S 32Gb (черный)</a></h2>
+					<a href="#"><img src=<?= TEMPLATE ?>"images/phone-index.jpg" alt="" /></a>
+					<p>Цена:  <span>24 990.</span></p>
+					<a href="#"><img class="addtocard-index" src=<?= TEMPLATE ?>"images/addcard-index.jpg" alt="Добавить в карзину" /></a>
 				</div>
                 <div class="product-index">
 					<h2><a href="#">Sony Xperia S 32Gb (черный)</a></h2>
 					<a href="#"><img src="images/phone-index.jpg" alt="" /></a>
 					<p>Цена:  <span>24 990.</span></p>
-					<a href="#"><img class="addtocard-index" src="images/addcard-index.jpg" alt="Добавить в карзину" /></a>
+					<a href="#"><img class="addtocard-index" src=<?= TEMPLATE ?>"images/addcard-index.jpg" alt="Добавить в карзину" /></a>
 				</div>
                 <div class="product-index">
 					<h2><a href="#">Sony Xperia S 32Gb (черный)</a></h2>
 					<a href="#"><img src="images/phone-index.jpg" alt="" /></a>
 					<p>Цена:  <span>24 990.</span></p>
-					<a href="#"><img class="addtocard-index" src="images/addcard-index.jpg" alt="Добавить в карзину" /></a>
-				</div>
-                <div class="product-index">
-					<h2><a href="#">Sony Xperia S 32Gb (черный)</a></h2>
-					<a href="#"><img src="images/phone-index.jpg" alt="" /></a>
-					<p>Цена:  <span>24 990.</span></p>
-					<a href="#"><img class="addtocard-index" src="images/addcard-index.jpg" alt="Добавить в карзину" /></a>
-				</div>
-                <div class="product-index">
-					<h2><a href="#">Sony Xperia S 32Gb (черный)</a></h2>
-					<a href="#"><img src="images/phone-index.jpg" alt="" /></a>
-					<p>Цена:  <span>24 990.</span></p>
-					<a href="#"><img class="addtocard-index" src="images/addcard-index.jpg" alt="Добавить в карзину" /></a>
-				</div>
-                <div class="product-index">
-					<h2><a href="#">Sony Xperia S 32Gb (черный)</a></h2>
-					<a href="#"><img src="images/phone-index.jpg" alt="" /></a>
-					<p>Цена:  <span>24 990.</span></p>
-					<a href="#"><img class="addtocard-index" src="images/addcard-index.jpg" alt="Добавить в карзину" /></a>
-				</div>
-                <div class="product-index">
-					<h2><a href="#">Sony Xperia S 32Gb (черный)</a></h2>
-					<a href="#"><img src="images/phone-index.jpg" alt="" /></a>
-					<p>Цена:  <span>24 990.</span></p>
-					<a href="#"><img class="addtocard-index" src="images/addcard-index.jpg" alt="Добавить в карзину" /></a>
+					<a href="#"><img class="addtocard-index" src=<?= TEMPLATE ?>"images/addcard-index.jpg" alt="Добавить в карзину" /></a>
 				</div>
             </div>
         </div>
@@ -177,7 +181,7 @@
 			<div class="enter">
 				<h2><span>Авторизация</span></h2>
 				<div>
-					<a href="#"><img src="images/enter.jpg" alt="" /></a>
+					<a href="#"><img src=<?= TEMPLATE ?>"images/enter.jpg" alt="" /></a>
 				</div>
 			</div>
             <div class="basket">
@@ -187,7 +191,7 @@
 						У вас в корзине<br />
 						<span>1</span> товар на <span>30 459</span> руб
 					</p>
-					<a href="#"><img src="images/oformit.jpg" alt="" /></a>
+					<a href="#"><img src=<?= TEMPLATE ?>"images/oformit.jpg" alt="" /></a>
 				</div>
 			</div>
             <div class="share-search">
@@ -208,7 +212,7 @@
 						<option>NEC</option>
 						<option>Nokia</option>
 					</select>
-					<input class="podbor" type="image" src="images/podbor.jpg" />
+					<input class="podbor" type="image" src=<?= TEMPLATE ?>"images/podbor.jpg" />
 					</form>
 				</div>
 			</div>
@@ -219,10 +223,10 @@
     <div class="clr"></div>
     <div class="footer">
 			<div class="flogo">
-				<a href="/"><img src="images/footer-logo.png" alt="Интернет магазин сотовых телефонов" /></a>
+				<a href="/"><img src=<?= TEMPLATE ?>"images/footer-logo.png" alt="Интернет магазин сотовых телефонов" /></a>
 				<p>Сopyright © 2012</p>
 			</div>
-			<div class="fphone">
+			<div class="iphone">
                 <h2>Телефон:</h2>
                 <h1>8 (800) 700-00-01</h1>
 
@@ -230,7 +234,7 @@
                 <p>Будние дни: с 9:00 до 18:00<br />
                 Суббота, Воскресенье - выходные </p>
 			</div>
-			<div class="fmenu">
+			<div class=<?= TEMPLATE ?>"fmenu">
 				<p>Меню:</p>
 				<ul>
 					<li><a href="#">Главная</a></li>
