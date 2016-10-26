@@ -1,9 +1,9 @@
 <?php
 defined('ISHOP') or die('goodbye');
 
-echo 'Controller';
-
 require_once MODEL;
 
+$view = empty($_GET['view']) ? 'hits' : $_GET['view'];
 ////подключение вида
-require_once TEMPLATE . 'index.php';
+//exit(__DIR__ . '/../' . TEMPLATE . 'index.php');
+require_once __DIR__ . '/../' . TEMPLATE . 'index.php';

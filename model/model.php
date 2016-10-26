@@ -1,4 +1,4 @@
 <?php
 defined('ISHOP') or die('goodbye');
 
-echo 'model';
+//echo 'model';
