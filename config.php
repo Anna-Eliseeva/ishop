@@ -11,14 +11,15 @@ define('TEMPLATE', VIEW . 'ishop/');
 define('HOST', 'localhost');
 
 // User
-define('DB_USER', 'root');
+define('DB_USER', 'Anna');
 
 // Password
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', '1234');
+define('DB_PORT', 3304);
 define('DB', 'ishop');
 
 // Name Shop
 define('NAME_SHOP', 'Имя магаза');
 
-$db = mysqli_connect(HOST, DB_USER, DB_PASSWORD, DB, 3306) or exit('exit');
-mysqli_query($db, "SET NAMES 'UTF8' ") or exit('cant set charset');
+//$db = mysqli_connect(HOST, DB_USER, DB_PASSWORD, DB, 3306) or exit('exit');
+//mysqli_query($db, "SET NAMES 'UTF8' ") or exit('cant set charset');

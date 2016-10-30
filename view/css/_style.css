@@ -9,10 +9,10 @@ html {
 }
 
 body {
+    background: #dbf3fd;
     color: #333;
-    text-align: left;
     font: 13px Tahoma, Helvetica, Geneva, sans-serif;
-    background: #dbf3fd
+    text-align: left
 }
 
 a {
@@ -70,8 +70,8 @@ h3 {
 }
 
 .brows {
-    width: 100%;
     margin-bottom: 20px;
+    width: 100%;
 }
 
 .brows td {
@@ -80,8 +80,8 @@ h3 {
 }
 
 .brows td a {
-    font-size: 17px;
     display: block;
+    font-size: 17px;
 }
 
 tr.brows_name td {
@@ -89,9 +89,9 @@ tr.brows_name td {
 }
 
 .return {
+    left: 20px;
     position: absolute;
     top: -110px;
-    left: 20px;
 }
 
 .return a {
@@ -105,13 +105,13 @@ tr.brows_name td {
 }
 
 .why {
-    width: 100%;
     margin-top: 25px;
+    width: 100%;
 }
 
 .why p {
-    padding: 0;
-    margin: 0
+    margin: 0;
+    padding: 0
 }
 
 .main {
@@ -125,10 +125,10 @@ tr.brows_name td {
 }
 
 .td1, .td2, .td3 {
-    width: 239px;
     height: 119px;
-    vertical-align: top;
     padding: 15px 65px 0 25px;
+    vertical-align: top;
+    width: 239px;
 }
 
 .td1 {
@@ -144,8 +144,8 @@ tr.brows_name td {
 }
 
 .qtabs {
-    float: right;
     color: #666;
+    float: right;
     margin: 57px 34px 0 0
 }
 
@@ -154,8 +154,8 @@ tr.brows_name td {
 }
 
 .qtabs li {
-    float: left;
     cursor: pointer;
+    float: left;
     padding: 0 5px
 }
 
@@ -176,14 +176,14 @@ tr.brows_name td {
 }
 
 .qtcontent {
+    margin: 0 30px;
+    padding: 20px 0;
     position: absolute;
     visibility: hidden;
-    width: 94%;
-    margin: 0 30px;
-    padding: 20px 0
+    width: 94%
 }
 
 .qtcurrent {
-    position: relative;
-    overflow: hidden
+    overflow: hidden;
+    position: relative
 }

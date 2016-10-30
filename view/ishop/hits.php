@@ -1,6 +1,9 @@
 <?php defined('ISHOP') or die('goodbye'); ?>
 <div class="catalog-index">
-<h1><img src="/view/images/lider-sale.jpg" alt="Лидеры продаж" /></h1>
+
+ <?php print_r($cat) ?>
+
+    <h1><img src="/view/images/lider-sale.jpg" alt="Лидеры продаж" /></h1>
  <div class="product-index">
  <h2><a href="#">Sony Xperia S 32Gb (черный)</a></h2>
  <a href="#"><img src="/view/images/phone-index.jpg" alt="" /></a>

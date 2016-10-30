@@ -24,10 +24,10 @@ body {
 }
 
 .main {
-    min-width: 980px;
-    margin: 0 auto;
     background: #fff;
+    margin: 0 auto;
     max-width: 1200px;
+    min-width: 980px;
     overflow: hidden;
 }
 
@@ -49,25 +49,25 @@ body {
 
 .head-contact {
     background: #f8fafb url(../images/phone-img.jpg) 251px 8px no-repeat;
-    float: right;
     border: 2px solid #f2f6f8;
     border-radius: 0 0 10px 10px;
-    text-align: right;
+    color: #000;
+    float: right;
+    font: 12px Verdana;
     margin: 0 6px 0 0;
     padding: 5px 65px 5px 14px;
-    font: 12px Verdana;
-    color: #000;
+    text-align: right;
     width: 222px;
 }
 
 .head-contact p {
-    margin: 0 0 3px 0;
     line-height: 1.3;
+    margin: 0 0 3px 0;
 }
 
 .head-contact strong {
-    font-weight: normal;
     font-size: 14px;
+    font-weight: normal;
 }
 
 .head-contact span {
@@ -76,13 +76,13 @@ body {
 }
 
 .search-head {
-    overflow: hidden;
+    background: url(../images/bg-search.jpg) left top no-repeat;
     clear: right;
     float: right;
-    background: url(../images/bg-search.jpg) left top no-repeat;
-    width: 305px;
     height: 29px;
     margin: 5px 6px 5px 0;
+    overflow: hidden;
+    width: 305px;
 }
 
 .search-head li {
@@ -91,9 +91,9 @@ body {
 
 #quickquery {
     border: none;
+    font-size: 12px;
     margin: 6px 23px 3px 10px;
     width: 210px;
-    font-size: 12px;
 }
 
 .search-btn {
@@ -101,19 +101,19 @@ body {
 }
 
 .menu {
-    display: table-row;
     background: url(../images/menu-bg.jpg) top repeat-x;
+    display: table-row;
 }
 
 .menu li {
     background: url(../images/menu-bg-light.png) center top no-repeat;
-    border-right: 1px solid #065786;
     border-left: 1px solid #319ad0;
-    width: auto;
+    border-right: 1px solid #065786;
     display: table-cell;
-    text-align: center;
     height: 50px;
+    text-align: center;
     vertical-align: bottom;
+    width: auto;
 }
 
 .menu li:first-child {
@@ -125,9 +125,9 @@ body {
 }
 
 .menu li:hover {
-    border-right: 1px solid #00446b;
-    border-left: 1px solid #00446b;
     background: #00446b url(../images/menu-bg-light.png) center top no-repeat;
+    border-left: 1px solid #00446b;
+    border-right: 1px solid #00446b;
 }
 
 .menu li:first-child:hover {
@@ -139,14 +139,14 @@ body {
 }
 
 .menu li a {
-    display: block;
-    font: 14px Verdana;
     color: #fff;
-    text-decoration: none;
-    width: 1000px;
-    height: 50px;
+    display: block;
     display: table-cell;
+    font: 14px Verdana;
+    height: 50px;
+    text-decoration: none;
     vertical-align: middle;
+    width: 1000px;
 }
 
 #contentwrapper {
@@ -160,15 +160,15 @@ body {
 
 #left-bar {
     float: left;
-    width: 240px;
     margin-left: -100%;
+    width: 240px;
 }
 
 #right-bar {
-    float: left;
-    width: 245px;
-    margin-left: -245px;
     background: #ffe;
+    float: left;
+    margin-left: -245px;
+    width: 245px;
 }
 
 .left-bar-cont {
@@ -184,10 +184,10 @@ body {
     background: -o-linear-gradient(left, #0e92c3 43%, #04588f 100%);
     background: -ms-linear-gradient(left, #0e92c3 43%, #04588f 100%);
     background: linear-gradient(left, #0e92c3 43%, #04588f 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0e92c3', endColorstr='#04588f', GradientType=1);
     border-radius: 4px 4px 0 0;
-    font: normal 18px Verdana;
     color: #fff;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0e92c3', endColorstr='#04588f', GradientType=1);
+    font: normal 18px Verdana;
     padding: 5px 0 5px 10px;
 }
 
@@ -199,22 +199,22 @@ body {
     background: -o-linear-gradient(left, #0e92c3 43%, #04588f 100%);
     background: -ms-linear-gradient(left, #0e92c3 43%, #04588f 100%);
     background: linear-gradient(left, #0e92c3 43%, #04588f 100%);
+    color: #fff;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0e92c3', endColorstr='#04588f', GradientType=1);
     font: bold 14px Verdana;
-    color: #fff;
     padding: 5px 0 5px 15px;
 }
 
 .nav-catalog {
-    padding: 10px 10px 20px 55px;
     border-bottom: 1px solid #e1e1e1;
     list-style: url(../images/disc.gif);
+    padding: 10px 10px 20px 55px;
 }
 
 .nav-new a, .nav-lider a, .nav-sale a {
+    color: #000;
     font: bold 14px Verdana;
     text-decoration: none;
-    color: #000;
 }
 
 .nav-new a:hover, .nav-lider a:hover, .nav-sale a:hover {
@@ -253,49 +253,49 @@ body {
 }
 
 .nav-catalog li a {
-    font: bold 14px Verdana;
     color: #000;
+    font: bold 14px Verdana;
     text-decoration: none;
 }
 
 .nav-catalog li a:hover {
-    font: bold 14px Verdana;
     color: #1b7cb1;
+    font: bold 14px Verdana;
     text-decoration: none;
 }
 
 .bar-contact {
-    color: #555;
-    border-top: 1px solid #fff;
     border-bottom: 1px solid #e1e1e1;
+    border-top: 1px solid #fff;
+    color: #555;
     padding: 15px 0 20px 15px;
 }
 
 .bar-contact h3 {
-    font: normal 18px Verdana;
     color: #000;
+    font: normal 18px Verdana;
 }
 
 .bar-contact p {
-    font: normal 14px Verdana;
     color: #000;
+    font: normal 14px Verdana;
     margin: 15px 0 0 0;
 }
 
 .bar-contact p span {
-    font: bold 18px Verdana;
     color: #000;
+    font: bold 18px Verdana;
 }
 
 .news {
-    border-top: 1px solid #fff;
     border-bottom: 1px solid #e1e1e1;
+    border-top: 1px solid #fff;
     padding: 15px 0 20px 15px;
 }
 
 .news h3 {
-    font: bold 16px Verdana;
     color: #000;
+    font: bold 16px Verdana;
 }
 
 .news p {
@@ -303,16 +303,16 @@ body {
 }
 
 .news span {
+    background: #e7e7e7;
     color: #7f7e7e;
     font: normal 10px Verdana;
-    background: #e7e7e7;
     padding: 1px 7px;
 }
 
 .news a {
-    font: normal 12px Verdana;
     color: #555;
     display: block;
+    font: normal 12px Verdana;
     margin: 5px 0 0 0;
 }
 
@@ -323,21 +323,21 @@ body {
 .news-arh {
     background: #eaeaea;
     border: 1px solid #fff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: #eee 0px 0px 7px;
+    -moz-box-shadow: #eee 0px 0px 7px;
+    -webkit-box-shadow: #eee 0px 0px 7px;
     margin: 15px 0 0 !important;
     padding: 8px 15px 10px;
     width: 102px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    -webkit-box-shadow: #eee 0px 0px 7px;
-    -moz-box-shadow: #eee 0px 0px 7px;
-    box-shadow: #eee 0px 0px 7px;
 }
 
 .info {
-    color: #555;
-    border-top: 1px solid #fff;
     border-bottom: 1px solid #e1e1e1;
+    border-top: 1px solid #fff;
+    color: #555;
     padding: 15px 0 20px 15px;
 }
 
@@ -346,8 +346,8 @@ body {
 }
 
 .info h3 {
-    font: normal 18px Verdana;
     color: #000;
+    font: normal 18px Verdana;
 }
 
 .info p {
@@ -355,8 +355,8 @@ body {
 }
 
 .info a {
-    font: normal 12px Verdana;
     color: #555;
+    font: normal 12px Verdana;
 }
 
 .info a:hover {
@@ -375,10 +375,10 @@ body {
     background: -o-linear-gradient(left, #0e92c3 43%, #04588f 100%);
     background: -ms-linear-gradient(left, #0e92c3 43%, #04588f 100%);
     background: linear-gradient(left, #0e92c3 43%, #04588f 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0e92c3', endColorstr='#04588f', GradientType=1);
     border-radius: 4px 4px 0 0;
-    font: normal 19px Verdana;
     color: #fff;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0e92c3', endColorstr='#04588f', GradientType=1);
+    font: normal 19px Verdana;
     padding: 5px 0 5px 10px;
 }
 
@@ -388,8 +388,8 @@ body {
 
 .enter div, .basket div, .share-search div {
     background: #f7f7f7;
-    font: bold 15px Verdana;
     color: #000;
+    font: bold 15px Verdana;
     padding: 15px 0;
 }
 
@@ -403,8 +403,8 @@ body {
 }
 
 .basket div p {
-    padding: 0 0 15px 20px;
     line-height: 1.8;
+    padding: 0 0 15px 20px;
 }
 
 .share-search div {
@@ -419,22 +419,22 @@ body {
 }
 
 .share-search div select {
-    width: 200px;
     font-size: 14px;
     padding: 5px;
+    width: 200px;
 }
 
 .podbor-price {
-    width: 60px;
     border: 1px solid #959b9e;
-    text-align: right;
     font-size: 12px;
+    text-align: right;
+    width: 60px;
 }
 
 .podbor {
+    display: block;
     margin: 20px auto 0 auto;
     width: 170px;
-    display: block;
 }
 
 .catalog-index {
@@ -442,20 +442,20 @@ body {
 }
 
 .catalog-index h1 {
-    text-align: center;
     margin: 15px 0 20px 0;
+    text-align: center;
 }
 
 .product-index {
     float: left;
-    width: 50%;
     margin: 0 0 60px 0;
     text-align: center;
+    width: 50%;
 }
 
 .product-index h2 {
-    font: bold 14px Verdana;
     color: #2b8aba;
+    font: bold 14px Verdana;
     margin: 0 0 10px 0;
 }
 
@@ -488,15 +488,15 @@ body {
 }
 
 .flogo p {
-    margin: 10px 0 0 0;
     font: bold 14px Verdana;
+    margin: 10px 0 0 0;
 }
 
 .fphone {
     float: right;
     font: 12px Verdana;
-    text-align: right;
     margin: 15px 20px 0 0;
+    text-align: right;
 }
 
 .fphone h2 {
@@ -510,10 +510,10 @@ body {
 
 .fmenu {
     font: 14px Verdana;
-    overflow: hidden;
-    width: 360px;
     margin: 15px auto 0 auto;
+    overflow: hidden;
     padding: 0 0 15px 0;
+    width: 360px;
 }
 
 .fmenu p {
@@ -545,8 +545,8 @@ body {
 /*        Табличный вид каталога        */
 
 .kroshka {
-    font: 14px Verdana;
     color: #555;
+    font: 14px Verdana;
     margin: 15px 0 35px 30px;
 }
 
@@ -564,11 +564,11 @@ body {
 }
 
 .vid-sort {
-    font: 12px Verdana;
-    color: #555;
-    margin: 0 0 35px 30px;
     background: #fafbfb;
     border-bottom: 1px solid #dee7ec;
+    color: #555;
+    font: 12px Verdana;
+    margin: 0 0 35px 30px;
     padding: 10px 0 10px 5px;
 }
 
@@ -598,26 +598,26 @@ a.sort-bot {
 
 a.sort-top-act {
     background: url(../images/sort-top-act.gif) left 6px no-repeat;
-    padding: 0 0 0 12px;
     font-weight: bold;
+    padding: 0 0 0 12px;
 }
 
 a.sort-bot-act {
     background: url(../images/sort-bot-act.gif) left 6px no-repeat;
-    padding: 0 0 0 12px;
     font-weight: bold;
+    padding: 0 0 0 12px;
 }
 
 .product-table {
     float: left;
-    width: 33%;
     margin: 0 0 60px 0;
     text-align: center;
+    width: 33%;
 }
 
 .product-table h2 {
-    font: 12px Verdana;
     color: #2b8aba;
+    font: 12px Verdana;
     margin: 0 0 10px 0;
 }
 
@@ -655,10 +655,10 @@ a.sort-bot-act {
 }
 
 .product-table-img div {
-    position: absolute;
-    top: 0;
-    right: 0;
     margin: 0 20px 0 0;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 .product-table-img div img {
@@ -668,10 +668,10 @@ a.sort-bot-act {
 .pager {
     background: #fafbfb;
     border-top: 1px solid #ebf1f4;
-    font: 15px Verdana;
     color: #2b8aba;
-    padding: 10px;
+    font: 15px Verdana;
     margin: 5px 15px;
+    padding: 10px;
 }
 
 .pager a {
@@ -693,8 +693,8 @@ a.sort-bot-act {
 /*        Линейный вид каталога        */
 
 .product-line {
-    overflow: hidden;
     margin: 0 20px 35px 30px;
+    overflow: hidden;
 }
 
 .product-line-img {
@@ -724,8 +724,8 @@ a.sort-bot-act {
 }
 
 .product-line-price div {
-    margin: 5px 0 0 0;
     height: 26px;
+    margin: 5px 0 0 0;
 }
 
 .product-line-price div img {
@@ -738,10 +738,10 @@ a.sort-bot-act {
 }
 
 .product-line-opis h2 {
-    font: 12px Verdana;
     color: #2b8aba;
-    margin: 0 0 7px 0;
+    font: 12px Verdana;
     line-height: 0.8;
+    margin: 0 0 7px 0;
 }
 
 .product-line-opis h2 a {
@@ -753,15 +753,15 @@ a.sort-bot-act {
 }
 
 .content-txt {
-    overflow: hidden;
-    margin: 0 30px;
-    font: 12px Verdana;
     color: #000;
+    font: 12px Verdana;
+    margin: 0 30px;
+    overflow: hidden;
 }
 
 .content-txt h1 {
-    font-size: 24px;
     color: #2b8aba;
+    font-size: 24px;
     font-weight: normal;
     margin: 0 0 15px 0;
 }
@@ -826,8 +826,8 @@ a.sort-bot-act {
 /*        Galery        */
 
 #slideshow {
-    list-style: none;
-    color: #fff
+    color: #fff;
+    list-style: none
 }
 
 #slideshow span {
@@ -835,11 +835,11 @@ a.sort-bot-act {
 }
 
 #wrapper {
-    width: 200px;
-    margin: 0;
     display: none;
-    overflow: hidden;
     float: left;
+    margin: 0;
+    overflow: hidden;
+    width: 200px;
 }
 
 #wrapper * {
@@ -848,29 +848,29 @@ a.sort-bot-act {
 }
 
 #fullsize {
-    position: relative;
-    width: 200px;
+    border: 2px solid #fff;
     height: 300px;
     padding: 2px;
-    border: 2px solid #fff;
+    position: relative;
+    width: 200px;
 }
 
 #information {
-    position: absolute;
-    bottom: 0;
-    width: 200px;
-    height: 0;
     background: #000;
+    bottom: 0;
     color: #fff;
-    overflow: hidden;
-    z-index: 200;
+    filter: alpha(opacity=70);
+    height: 0;
     opacity: .7;
-    filter: alpha(opacity=70)
+    overflow: hidden;
+    position: absolute;
+    width: 200px;
+    z-index: 200
 }
 
 #information h3 {
-    padding: 0;
     font-size: 0;
+    padding: 0;
 }
 
 #information p {
@@ -883,35 +883,35 @@ a.sort-bot-act {
 
 #image img {
     position: absolute;
-    z-index: 25;
-    width: auto
+    width: auto;
+    z-index: 25
 }
 
 .imgnav {
+    cursor: pointer;
+    height: 306px;
     position: absolute;
     width: 25%;
-    height: 306px;
-    cursor: pointer;
     z-index: 150
 }
 
 #imgprev {
-    left: 0;
-    background: url(../images/left.gif) left center no-repeat
+    background: url(../images/left.gif) left center no-repeat;
+    left: 0
 }
 
 #imgnext {
-    right: 0;
-    background: url(../images/right.gif) right center no-repeat
+    background: url(../images/right.gif) right center no-repeat;
+    right: 0
 }
 
 #imglink {
-    position: absolute;
+    filter: alpha(opacity=40);
     height: 306px;
-    width: 100%;
-    z-index: 100;
     opacity: .4;
-    filter: alpha(opacity=40)
+    position: absolute;
+    width: 100%;
+    z-index: 100
 }
 
 .linkhover {
@@ -923,10 +923,10 @@ a.sort-bot-act {
 }
 
 #slideleft {
-    float: left;
-    width: 20px;
-    height: 50px;
     background: url(../images/scroll-left.gif) center center no-repeat;
+    float: left;
+    height: 50px;
+    width: 20px;
 }
 
 #slideleft:hover {
@@ -934,10 +934,10 @@ a.sort-bot-act {
 }
 
 #slideright {
-    float: right;
-    width: 20px;
-    height: 50px;
     background: url(../images/scroll-right.gif) center center no-repeat;
+    float: right;
+    height: 50px;
+    width: 20px;
 }
 
 #slideright:hover {
@@ -946,28 +946,28 @@ a.sort-bot-act {
 
 #slidearea {
     float: left;
-    position: relative;
-    width: 150px;
-    margin-left: 5px;
     height: 81px;
-    overflow: hidden
+    margin-left: 5px;
+    overflow: hidden;
+    position: relative;
+    width: 150px
 }
 
 #slider {
-    position: absolute;
+    height: 81px;
     left: 0;
-    height: 81px
+    position: absolute
 }
 
 #slider img {
-    cursor: pointer;
     border: 1px solid #666;
+    cursor: pointer;
     padding: 2px
 }
 
 .catalog-detail h1 {
-    font: 24px verdana;
     color: #2b8aba;
+    font: 24px verdana;
     margin: 0 0 20px 0;
 }
 
@@ -976,8 +976,8 @@ a.sort-bot-act {
 }
 
 .short-opais {
-    margin: 0 0 40px 218px;
     font-family: Verdana;
+    margin: 0 0 40px 218px;
 }
 
 .short-opais h3 {
@@ -995,8 +995,8 @@ a.sort-bot-act {
 }
 
 .price-detail span {
-    font-size: 30px !important;
     font-family: Candara;
+    font-size: 30px !important;
 }
 
 .long-opais {
@@ -1015,8 +1015,8 @@ a.sort-bot-act {
 }
 
 .tech-harakt {
-    margin: 40px 0 0 0;
     font-family: Verdana;
+    margin: 40px 0 0 0;
 }
 
 .tech-harakt h3 {
@@ -1042,19 +1042,19 @@ a.sort-bot-act {
 /*        Заказ        */
 
 #content-zakaz {
-    width: 98%;
     margin: 0 auto;
+    width: 98%;
 }
 
 #content-zakaz h2 {
-    text-align: center;
     font: normal 24px Verdana;
     margin: 20px 0 10px 0;
+    text-align: center;
 }
 
 .zakaz-maiin-table {
-    width: 100%;
     margin: 0 0 30px;
+    width: 100%;
 }
 
 .zakaz-maiin-table td {
@@ -1064,15 +1064,15 @@ a.sort-bot-act {
 .z_top {
     background: #fafbfb;
     border-bottom: 1px solid #dee7ec;
-    font: bold 12px Verdana;
     color: #555;
+    font: bold 12px Verdana;
 }
 
 .z_bot {
     background: #fafbfb;
     border-top: 1px solid #dee7ec;
-    font: bold 12px Verdana;
     color: #555;
+    font: bold 12px Verdana;
 }
 
 .z_name {
@@ -1084,8 +1084,8 @@ a.sort-bot-act {
 }
 
 .z_name a {
-    font: 12px Verdana;
     color: #2b8aba;
+    font: 12px Verdana;
 }
 
 .z_name a:hover {
@@ -1109,18 +1109,18 @@ a.sort-bot-act {
 }
 
 .kolvo {
-    width: 48px;
-    height: 22px;
-    font: 16px Verdana;
-    color: #000;
     background: #fafafa;
     border: 1px solid #b5b5b5;
+    color: #000;
+    font: 16px Verdana;
+    height: 22px;
     text-align: center;
+    width: 48px;
 }
 
 .sposob-dostavki p {
-    font-size: 12px;
     font-family: Verdana;
+    font-size: 12px;
     margin-top: 7px;
 }
 
@@ -1137,24 +1137,24 @@ a.sort-bot-act {
 }
 
 .zakaz-data {
-    width: 100%;
     background: #fafafa;
     margin: 10px 0 40px 0;
+    width: 100%;
 }
 
 .zakaz-data td {
-    vertical-align: middle;
     padding: 10px 10px 0px 10px;
+    vertical-align: middle;
 }
 
 .zakaz-txt {
-    font: 14px Verdana;
     color: #555555;
+    font: 14px Verdana;
 }
 
 .zakaz-prim {
-    font: 12px Verdana;
     color: #c0c0c0;
+    font: 12px Verdana;
     font-style: italic;
 }
 
@@ -1162,9 +1162,9 @@ a.sort-bot-act {
 }
 
 .zakaz-inpt input {
-    width: 330px;
-    height: 28px;
     border: 1px solid #ccc;
+    height: 28px;
+    width: 330px;
 }
 
 .zakaz-txtarea {
@@ -1172,7 +1172,7 @@ a.sort-bot-act {
 }
 
 .zakaz-txtarea textarea {
-    width: 330px;
-    height: 100px;
     border: 1px solid #ccc;
+    height: 100px;
+    width: 330px;
 }

@@ -3,7 +3,8 @@ defined('ISHOP') or die('goodbye');
 ?>
 <div class="footer">
                <div class="flogo">
-                    <a href="/"><img src=<?= TEMPLATE ?>"images/footer-logo.png" alt="Интернет магазин сотовых телефонов" /></a>
+                    <a href="/"><img src=<?= TEMPLATE ?>"images/footer-logo.png"
+                                     alt="Интернет магазин сотовых телефонов" /></a>
                     <p>Сopyright © 2012</p>
 </div>
                <div class="iphone">
